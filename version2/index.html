@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berimbolo</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+       <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container">
+              <a class="navbar-brand" href="#">Berimbolo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item mx-4">
+                    <a class="nav-link" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="nav-link" href="./aboutus.html">About us</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="nav-link" href="./products.html">Products</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="nav-link " href="./contactus.html">Contact us</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a href="#sign_in" class="btn btn-white btn-outline-danger p-2" data-bs-toggle="modal">sign in </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+                <!-- modal  -->
+        <section class="modal" id="sign_in">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-titel text-black"> sign in</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <label class="form-label text-black" for="email"> Email:</label>
+                <input class="form-control mb-3 text-black" type="email" placeholder="enter email" id="email">
+                <label class="form-label text-black" for="password"> password:</label>
+                <input class="form-control mb-3 text-black" type="password" placeholder="enter password" id="password">
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">cancel</button>
+                <button class="btn btn-primary" data-bs-dismiss="modal" id="btn" > sign in</button>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!-- contant body  -->
+    <section>
+      <div id="image-of-body">
+        <img src="./image/security-camera-3d-checking-260nw-1478730752.webp" alt="security system background image ">
+      </div>
+      <div class="container" id="text">
+        <div class="row text-center">
+          <div class="col-md-2 offset-md-3">
+            <h1>security system website</h1>
+          </div>
+          <div class="offset-md-6 col-md-2 mt-5">
+            <a class="btn btn-primary" href="./products.html"> see Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="text-center my-5">customers feedback</h1>
+    <section class="container d-md-flex gap-5">
+      <div class="card text-center">
+        <div class="card-image">
+          <img src="./image/download (1).png" alt="" class="rounded-circle p-5 image-fluid">
+        </div>
+        <div class="card-body">
+          <h5 class="car">joun redel</h5>
+          <p class="car">the website is usefull and the products is good</p>
+        </div>
+      </div>
+      <div class="card text-center">
+        <div class="card-image">
+          <img src="./image/download (1).png" alt="" class="rounded-circle p-5 image-fluid">
+        </div>
+        <div class="card-body">
+          <h5 class="car">rona ali</h5>
+          <p class="car">the website is usefull and the products is good</p>
+        </div>
+      </div>
+      <div class="card text-center">
+        <div class="card-image">
+          <img src="./image/download (1).png" alt="" class="rounded-circle p-5 image-fluid">
+        </div>
+        <div class="card-body">
+          <h5 class="car">toly redel</h5>
+          <p class="car">the website is usefull and the products is good</p>
+        </div>
+      </div>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
